@@ -45,7 +45,7 @@
       </div>
     </section>
 
-    <section class="services">
+    <section class="services" id="services">
       <div class="container">
         <h1>Here are just a few of the services we provide</h1>
         <div class="row d-flex justify-content-around">
@@ -56,7 +56,7 @@
               <div class="card-body">
                 <h5 class="card-title">Excavation</h5>
                 <p class="card-text">Full capability to set up farm irrigation systems for farmers</p>
-                <a href="#" class="btn btn-success">Call for a quote</a>
+                <a href="#popup" class="btn btn-success">Call for a quote</a>
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@
               <div class="card-body">
                 <h5 class="card-title">Stump Removal</h5>
                 <p class="card-text">We can remove any size stump you have in your way.</p>
-                <a href="#" class="btn btn-success">Call for a quote</a>
+                <a href="#popup" class="btn btn-success">Call for a quote</a>
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@
               <div class="card-body">
                 <h5 class="card-title">Fall Cleanup</h5>
                 <p class="card-text">We are all set to take care of all your fall cleanup needs.</p>
-                <a href="#" class="btn btn-success">Call for a quote</a>
+                <a href="#popup" class="btn btn-success">Call for a quote</a>
               </div>
             </div>
           </div>
@@ -87,20 +87,23 @@
       </div>
     </section>
 
-    <div class="popup">
+    <div class="popup" id="popup">
       <div class=" container popup__content">
         <div class="row">
-          <div class="popup__left col-lg-4">
+          <div id="hidden" class="popup__left">
             <img class="popup__img" src="./images/popup-image.jpg" alt="Lawn Photo">
             <img class="popup__img" src="./images/popup-image-2.jpg" alt="Lawn Photo">
           </div>
           <div class="popup__right">
-            <a href="#section-tours" class="popup__close">&times;</a>
-            <h2 class="popup__text">Contact Info</h2>
-            <p class="popup__text">Dan: 616-299-8193</p>
-            <p class="popup__text">Rick: 616-881-6613</p>
-            <p class="popup__text">or</p>
-            <p class="popup__text">Email: badgebrothers@gmail.com</p>
+            <div class="popup__text">
+              <a href="#services" class="popup__close">&times;</a>
+              <h2>Contact Info</h2>
+              <p>Dan: 616-299-8193</p>
+              <p>or</p>
+              <p>Rick: 616-881-6613</p>
+              <p>or</p>
+              <p>Email: badgebrothers@gmail.com</p>
+            </div>
           </div>
         </div>
       </div>
