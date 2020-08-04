@@ -59,6 +59,10 @@ body {
   width: 75%
 }
 
+.jumbotron {
+  border-radius: 0;
+}
+
 .contain img {
   width: 75%;
 }
@@ -105,6 +109,10 @@ h2 {
   border-radius: 5px;
   height: 336px;
   width: 100%px;
+}
+
+.card-text {
+  margin-bottom: 1rem;
 }
 
 .carousel {
@@ -193,7 +201,7 @@ h2 {
 
 .popup__text {
   margin-top: 10%;
-  font-size: 1.50rem;
+  font-size: 1.3rem;
 }
 
 /* OPEN STATES */
@@ -223,17 +231,18 @@ p {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1140px) {
   .carousel-inner {
     font-size: 2.0rem;
   }
+
+  .popup__text {
+    margin-top: 4%;
+    font-size: 1.1rem;
+  }
 }
 
-@media only screen and (max-width: 768px) {
-  h2 {
-    font-size: 1.5rem;
-  }
-
+@media only screen and (max-width: 1140px) {
   #hidden {
     display: none;
   }
@@ -242,13 +251,19 @@ p {
     width: 100%;
   }
 
-  .popup__text {
-    margin-top: 4%;
-    font-size: 1.0rem;
-  }
-
   p:last-child {
     margin-bottom: 4%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .popup__text {
+    margin-top: 4%;
+    font-size: .8rem;
   }
 
   .testimonials,
@@ -268,10 +283,6 @@ p {
 
   .contain img {
     width: 100%;
-  }
-
-  h2 {
-    font-size: 1.25rem;
   }
 
   .testimonials,
