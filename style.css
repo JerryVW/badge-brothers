@@ -318,6 +318,19 @@ p {
     font-size: 1.5rem;
   }
 
+  .popup__close:link,
+.popup__close:visited {
+  color: rgb(2, 175, 2);
+  position: absolute;
+  top: .5rem;
+  right: .75rem;
+  font-size: 2rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: all .4s;
+  line-height: 1;
+}
+
   .testimonials,
   .carousel {
     height: 440px;
