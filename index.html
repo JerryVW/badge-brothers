@@ -50,35 +50,41 @@
         <h1>Here are just a few of the services we provide</h1>
         <div class="row d-flex justify-content-around">
           
-          <div class="col-lg-4 card-box">
+          <div class="col-lg-4 card-box" id="excavation-card">
             <div class="card">
               <img class="card-img-top" src="./images/irrigation-setup-1.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Excavation</h5>
-                <p class="card-text">Full capability to set up farm irrigation systems for farmers</p>
+                <h3 class="card-title">Excavation</h3>
+                <p class="card-text">Fully capable to set up farm </p>
+                <p class="card-text">irrigation systems for farmers</p>
+                <p class="card-text">Prices vary on size of project</p>
                 <a href="#popup" class="btn btn-success">Call for a quote</a>
               </div>
             </div>
           </div>
   
-          <div class="col-lg-4 card-box">
+          <div class="col-lg-4 card-box" id="seasonal-card">
             <div class="card">
-              <img class="card-img-top" src="./images/stump-removal-3.jpg" alt="Card image cap">
+              <img class="card-img-top" src="./images/LawnCarePackage.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Stump Removal</h5>
-                <p class="card-text">We can remove any size stump you have in your way.</p>
-                <a href="#popup" class="btn btn-success">Call for a quote</a>
+                <h3 class="card-title">All Year Lawn Care</h3>
+                <p class="card-text">Full lawn care package prices</p>
+                <p class="card-text">vary depending on the</p> 
+                <p class="card-text">services you choose</p>
+                <a href="#seasonal" class="btn btn-success">Check Pricing</a>
               </div>
             </div>
           </div>
           
-          <div class="col-lg-4 card-box">
+          <div class="col-lg-4 card-box" id="fall-card">
             <div class="card">
               <img class="card-img-top" src="./images/leave_removal.jpg" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Fall Cleanup</h5>
-                <p class="card-text">We are all set to take care of all your fall cleanup needs.</p>
-                <a href="#popup" class="btn btn-success">Call for a quote</a>
+                <h3 class="card-title">Fall Cleanup</h3>
+                <p class="card-text">We are all set to</p>
+                <p class="card-text">take care of all your</p>
+                <p class="card-text">fall cleanup needs.</p>
+                <a href="#fall-cleanup" class="btn btn-success">Click for Price</a>
               </div>
             </div>
           </div>
@@ -112,7 +118,7 @@
     </section>
 
     <div class="popup" id="popup">
-      <div class=" container popup__content">
+      <div class="container popup__content">
         <div class="row">
           <div id="hidden" class="popup__left">
             <img class="popup__img" src="./images/popup-image.jpg" alt="Lawn Photo">
@@ -120,20 +126,59 @@
           </div>
           <div class="popup__right">
             <div class="popup__text">
-              <a href="#services" class="popup__close">&times;</a>
+              <a href="#excavation-card" class="popup__close">&times;</a>
               <h2>Please Call</h2>
               <p>Dan: 616-299-8193</p>
               <p>or</p>
               <p>Rick: 616-881-6613</p>
               <br>
               <p>for a consultation</p>
-              <p>or</p>
-              <p>Email: badgebrothers@gmail.com</p>
             </div>
           </div>
         </div>
       </div>
-      
+    </div>
+
+    <div class="seasonal" id="seasonal">
+      <div class="container popup__content">
+        <div class="row">
+          <div id="hidden" class="popup__left">
+            <img class="popup__img" src="./images/popup-image.jpg" alt="Lawn Photo">
+            <img class="popup__img" src="./images/popup-image-2.jpg" alt="Lawn Photo">
+          </div>
+          <div class="popup__right">
+            <div class="popup__text">
+              <a href="#seasonal-card" class="popup__close">&times;</a>
+              <h2>Lawn Mowing</h2>
+              <p class="card-price">$650</p>
+              <h2>Lawn Mowing & Fertilizing</h2>
+              <p class="card-price">$1300</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fall-cleanup" id="fall-cleanup">
+      <div class="container popup__content">
+        <div class="row">
+          <div id="hidden" class="popup__left">
+            <img class="popup__img" src="./images/popup-image.jpg" alt="Lawn Photo">
+            <img class="popup__img" src="./images/popup-image-2.jpg" alt="Lawn Photo">
+          </div>
+          <div class="popup__right">
+            <div class="popup__text">
+              <a href="#fall-card" class="popup__close">&times;</a>
+              <h2>Fall Cleanup starting at</h2>
+              <p class="card-price">$175</p>
+              <h2>Call</h2>
+              <p>Dan: 616-299-8193</p>
+              <p>or</p>
+              <p>Rick: 616-881-6613</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
 
