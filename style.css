@@ -106,9 +106,9 @@ h2 {
 }
 
 .card-img-top {
-  border-radius: 5px;
   height: 336px;
-  width: 100%px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .card-text {
@@ -258,6 +258,31 @@ p {
   margin: 0;
 }
 
+/* FORM */
+
+.form-container {
+  width: 40%;
+}
+
+.form-header {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(2, 175, 2);
+  margin-top: 4rem;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.form-group:first-child {
+  margin-top: 2rem;
+}
+
+.submit-btn {
+  margin-bottom: 4rem;
+}
+
 
 /* MEDIA QUERIES */
 
@@ -282,6 +307,12 @@ p {
   .popup__text {
     margin-top: 4%;
     font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .form-container {
+    width: 60%;
   }
 }
 
@@ -318,7 +349,7 @@ p {
     font-size: 1.5rem;
   }
 
-  .popup__close:link,
+.popup__close:link,
 .popup__close:visited {
   color: rgb(2, 175, 2);
   position: absolute;
@@ -338,5 +369,9 @@ p {
 
   .carousel-inner {
     font-size: 1.25rem;
+  }
+
+  .form-container {
+    width: 80%;
   }
 }
