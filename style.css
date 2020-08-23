@@ -99,8 +99,8 @@ h2 {
 }
 
 .card {
-  border: 2px solid rgb(2, 175, 2);
   border-radius: 5px;
+  border: 0;
   box-shadow: 10px 15px 10px #888888;
   margin-bottom: 3rem;
 }
@@ -108,7 +108,6 @@ h2 {
 .card-img-top {
   height: 336px;
   width: 100%;
-  overflow: hidden;
 }
 
 .card-text {
@@ -281,6 +280,24 @@ p {
 
 .submit-btn {
   margin-bottom: 4rem;
+}
+
+/* FOOTER */
+
+footer,
+.footer-copyright {
+  background-color: rgb(49, 49, 49);
+  color: white;
+  margin: 0;
+}
+
+.footer-icon {
+  height: 150px;
+}
+
+footer a {
+  width: 150px;
+  height: 150px;
 }
 
 
