@@ -8,14 +8,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <link rel="stylesheet" type="text/css" href="./public/css/style.css">
-  <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
   
-  <title>Badge Brothers</title>
+  <title>Stage Brothers</title>
 </head>
 <body>
 
-    <nav class="navbar bg-dark navbar-dark navbar-expand-md py-0 fixed-top ">
-        <a href="#" class="navbar-brand brand">BADGE BROTHERS</a>
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md py-0">
+        <a href="#" class="navbar-brand brand">STAGE BROTHERS</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -29,10 +28,10 @@
               <a href="#" class="nav-link">ABOUT</a>
             </li>
             <li class="item">
-              <a href="#" class="nav-link">SERVICES</a>
+              <a href="#services" class="nav-link">SERVICES</a>
             </li>
             <li class="item">
-              <a href="#" class="nav-link">CONTACT</a>
+              <a href="#form" class="nav-link">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -42,7 +41,7 @@
       <div class="contain">
         <img src="./public/images/different-logo.png" alt="Badge Brothers Excavating & Lawn Care">
         <h2>FOR ALL YOUR</h2>
-        <h2>EXCAVATING & LAWN CARE</h2>
+        <h2>EXCAVATING &amp; LAWN CARE</h2>
         <h2>NEEDS</h2>
       </div>
     </section>
@@ -54,7 +53,7 @@
           
           <div class="col-lg-4 card-box" id="excavation-card">
             <div class="card">
-              <img class="card-img-top" src="./public/images/irrigation-setup-1.jpg" alt="Card image cap">
+              <img class="card-img-top" src="./public/images/excavation.jpg" alt="Card image cap">
               <div class="card-body">
                 <h3 class="card-title">Excavation</h3>
                 <p class="card-text">Fully capable to set up farm </p>
@@ -80,7 +79,7 @@
           
           <div class="col-lg-4 card-box" id="fall-card">
             <div class="card">
-              <img class="card-img-top" src="./public/images/leave_removal.jpg" alt="Card image cap">
+              <img class="card-img-top" src="./public/images/fall_cleanup.jpg" alt="Card image cap">
               <div class="card-body">
                 <h3 class="card-title">Fall Cleanup</h3>
                 <p class="card-text">We are all set to</p>
@@ -101,12 +100,12 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <p>Mike Hanson</p>
-              <p>"Badge Brothers does amazing work!"</p> 
+              <p>"Stage Brothers does amazing work!"</p> 
               <p>"My yard has never looked better!"</p>
             </div>
             <div class="carousel-item">
               <p>Karen Barber</p>
-              <p>"Dan & Rick are true professionals."</p>  
+              <p>"Bob &amp; Harry are true professionals."</p>  
               <p>"They were on time and worked quickly"</p>
             </div>
             <div class="carousel-item">
@@ -130,9 +129,9 @@
             <div class="popup__text">
               <a href="#excavation-card" class="popup__close">&times;</a>
               <h2>Please Call</h2>
-              <p>Dan: 616-299-8193</p>
+              <p>Bob: 555-555-5555</p>
               <p>or</p>
-              <p>Rick: 616-881-6613</p>
+              <p>Harry: 555-555-555</p>
               <br>
               <p>for a consultation</p>
             </div>
@@ -153,7 +152,7 @@
               <a href="#seasonal-card" class="popup__close">&times;</a>
               <h2>Lawn Mowing</h2>
               <p class="card-price">$650</p>
-              <h2>Lawn Mowing & Fertilizing</h2>
+              <h2>Lawn Mowing &amp; Fertilizing</h2>
               <p class="card-price">$1300</p>
             </div>
           </div>
@@ -174,16 +173,16 @@
               <h2>Fall Cleanup</h2>
               <p class="card-price">$175</p>
               <h2>Call</h2>
-              <p>Dan: 616-299-8193</p>
+              <p>Bob: 555-555-5555</p>
               <p>or</p>
-              <p>Rick: 616-881-6613</p>
+              <p>Harry: 555-555-5555</p>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container form-container">
+    <div class="container form-container" id="form">
       <h2 class="form-header">EMAIL US HERE FOR A QUOTE</h2>
       {{msg}}
       <form class="contact-form" action="send" method="POST">
@@ -208,45 +207,6 @@
         <button type="submit" class="btn btn-primary submit-btn">SEND MAIL</button>
       </form>
     </div>
-
-<!-- Footer -->
-<footer class="page-footer font-small cyan darken-3">
-
-  <!-- Footer Elements -->
-  <div class="container">
-
-    <!-- Grid row-->
-    <div class="row">
-
-      <!-- Grid column -->
-      <div class="col-md-12 py-5">
-        <div class="mb-5 flex-center footer-icons">
-
-          <!-- Facebook -->
-          <a class="fb-ic">
-            <i class="fab fa-facebook-square "> </i>
-          </a>
-          <!-- Twitter -->
-          <a class="tw-ic">
-            <i class="fab fa-twitter"> </i>
-          </a>
-          <!-- Google +-->
-          <a class="gplus-ic">
-            <i class="fab fa-google-plus-g "> </i>
-          </a>
-          <!--Linkedin -->
-          <a class="li-ic">
-            <i class="fab fa-linkedin-in"> </i>
-          </a>
-        </div>
-      </div>
-      <!-- Grid column -->
-
-    </div>
-    <!-- Grid row-->
-
-  </div>
-  <!-- Footer Elements -->
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:

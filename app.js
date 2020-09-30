@@ -17,9 +17,8 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-
+app.locals.layout = false;
 app.get('/', (req, res) => {
-  app.locals.layout = false;
   res.render('contact');
 });
 
@@ -47,12 +46,15 @@ app.post('/send', (req, res) => {
         user: 'testingwebsiteemail@yahoo.com', // generated ethereal user
         pass: 'uqjlxxgkhwxoofkv', // generated ethereal password
       },
+      tls: {
+        rejectUnauthorized: false
+      }
     });
   
     let mailOptions = {
       from: '"Nodemailer Contact" <testingwebsiteemail@yahoo.com>', // sender address
       to: "jerryvanderweide@yahoo.com", // list of receivers
-      subject: "Node Contact Request", // Subject line
+      subject: "Lawn Care Service Request", // Subject line
       text: "Hello world?", // plain text body
       html: output // html body
     }
