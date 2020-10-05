@@ -40,7 +40,7 @@ app.post('/send', (req, res) => {
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
       host: "smtp.mail.yahoo.com",
-      port: process.nev.PORT  || 587,
+      port: 587,
       secure: false, // true for 465, false for other ports
       auth: {
         user: 'testingwebsiteemail@yahoo.com', // generated ethereal user
