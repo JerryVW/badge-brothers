@@ -383,6 +383,10 @@ footer,
     font-size: 1.5rem;
   }
 
+  .services {
+    padding: 0;
+  }
+
   .popup__text {
     margin-top: 4%;
     font-size: 1.2rem;
