@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Source Serif Pro', serif;
 }
@@ -95,7 +99,7 @@ h2 {
   height: 200px;
   margin: 0 1.25px 0 1.25px;
   border: 1px solid silver;
-  transition: transform  .3s ease-in;
+  transition: transform  .3s ease;
 }
 
 ul li {
@@ -103,7 +107,7 @@ ul li {
 }
 
 .img-enlarge:hover {
-  transform: scale(1.7);
+  transform: scale(1.5);
 }
 
 /* SERVICES */
@@ -118,7 +122,7 @@ ul li {
 
 
 .services h1 {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   color: rgb(2, 175, 2);
 }
 
